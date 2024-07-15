@@ -1,0 +1,48 @@
+.product-form{
+    width: 20rem;
+    max-width: 90%; /*incase of mobile*/
+    margin: auto; /*for center the form*/
+}
+
+
+button{
+    font: inherit;
+    border: 1px solid#00695c;
+    color: #00695c;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active{
+    background-color: #00695c;
+    color: white;
+}
+
+/*---------------------------------------------------------*/
+.form-control {
+    margin: 1rem 0;
+}
+  
+.form-control label,
+.form-control input,
+.form-control textarea {
+    display: block; /*take whole line*/
+    width: 100%; /*take 100% of 20rem i.e product-form*/
+    margin-bottom: 0.25rem;
+    color: #003327;
+}
+  
+.form-control input,
+.form-control textarea {
+    border: 1px solid #a1a1a1;
+    font: inherit;  /*set in body*/
+    border-radius: 2px;
+}
+  
+.form-control input:focus,
+.form-control textarea:focus {
+    outline-color: #00695c;
+}
+  
